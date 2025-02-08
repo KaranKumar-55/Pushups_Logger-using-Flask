@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block head %} {{ super() }}
+
+<link rel="stylesheet" 
+href="{{url_for('static', filename='extended_beauty.css')}}"/>
+
+{% endblock %}
+ 
+
+{% block content %}
+<h1> Hello</h1>
+<center>
+    <img src="{{url_for('static', filename='images/pushup.png')}}" 
+    alt="push up guy"
+    height="200px"
+    />
+</center>
+<p>
+    Welcome to pushup loggers! <br/> This website implements basic CRUD 
+    functinality  and user athentication features using flask.
+</p>
+{% endblock %}
