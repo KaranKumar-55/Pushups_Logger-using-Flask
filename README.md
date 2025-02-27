@@ -1,6 +1,6 @@
 # Pushups_Logger-using-Flask
 
-This is basic app just for learning purpose apractice my skills in Flask.
+Played with flask by creating APIs and Performed CRUD operations
 
 In this mini project I explore and create Some important functions:
 1. Create Account for new User
